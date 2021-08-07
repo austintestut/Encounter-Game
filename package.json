@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "http-server": "^0.12.3",
     "phaser": "^3.55.2"
   }
